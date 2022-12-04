@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_app/column_widget.dart';
 // import 'package:flutter_app/row_widget.dart';
-import 'package:flutter_app/ui/produk_form.dart';
+// import 'package:flutter_app/ui/produk_form.dart';
+import 'package:flutter_app/ui/produk_page.dart';
 // import 'package:flutter_app/helo_world.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Belajar Flutter',
-      home: ProdukForm(),
+      home: ProdukPage(),
     );
   }
 }

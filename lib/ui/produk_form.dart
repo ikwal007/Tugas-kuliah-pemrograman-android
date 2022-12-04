@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/ui/produk_detail.dart';
 
 class ProdukForm extends StatefulWidget {
-  const ProdukForm({super.key});
+  const ProdukForm({Key? key}) : super(key:key);
 
   @override
   State<ProdukForm> createState() => _ProdukFormState();
